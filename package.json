@@ -1,0 +1,27 @@
+{
+    "name": "modgrammer",
+    "displayName": "Modgrammer Theme",
+    "description": "A modified brogrammer theme using vibrant colors.",
+    "version": "0.1.0",
+    "publisher": "sh4nks",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "homepage": "https://github.com/sh4nks/vscode-theme-modgrammer/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sh4nks/vscode-theme-modgrammer.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Modgrammer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Modgrammer.tmTheme"
+            }
+        ]
+    }
+}
